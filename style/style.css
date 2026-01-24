@@ -198,7 +198,7 @@
 }
 
 .body{
-  padding: 10% 10%;
+  padding: 10% 3%;
 }
 .body h1{
   color: white;
@@ -219,33 +219,12 @@
   color: rgb(134, 134, 134);
 }
 
-
-
-/* .body .project a{
-  text-decoration: none;
-  color: #000;
-  padding: 1% 7%;
-
-  position: relative;
-  top: 50px;
-  border: 1px solid rgb(0, 157, 255);
-  border-radius: 15px;
-  color: rgb(0, 157, 255);
-  transition: 0.5s ease;
-} */
-
-/* .body .project a:hover{
-  border: 1px solid #00ffc3;
-  color: #00ffc3;
-} */
-
-
-.project a{
+.sec1 .project a{
   position:absolute;
-  top:50%;
-  left:20%;
+  top:55%;
+  left:15%;
   transform: translate(-50%,-50%);
-  padding: 10px 30px;
+  padding: 8px 20px;
   color: #1670f0;
   text-transform:uppercase;
   text-decoration:none;
@@ -255,7 +234,7 @@
   overflow:hidden;
 }
 
-a::before
+.sec1 a::before
 {
   content:"";
   position:absolute;
@@ -266,7 +245,7 @@ a::before
   background:rgba(255,255,255,0.05);
   
 }
-a span:nth-child(1)
+.sec1 a span:nth-child(1)
 {
   position:absolute;
   top:0;
@@ -289,7 +268,7 @@ a span:nth-child(1)
     transform:translateX(100%);
   }
 }
-a span:nth-child(2)
+.sec1 a span:nth-child(2)
 {
   position:absolute;
   top:0;
@@ -311,7 +290,7 @@ a span:nth-child(2)
     transform:translateY(100%);
   }
 }
-a span:nth-child(3)
+.sec1 a span:nth-child(3)
 {
   position:absolute;
   bottom:0;
@@ -334,7 +313,7 @@ a span:nth-child(3)
     transform:translateX(-100%);
   }
 }
-a span:nth-child(4)
+.sec1 a span:nth-child(4)
 {
   position:absolute;
   top:0;
