@@ -31,9 +31,11 @@
 @media (max-width: 992px) {
 
     .sec1 .body {
-        padding: 12% 0%;
+        padding: 25% 0%;
     }
-
+    .sec1 .container{
+        max-width: 850px;
+    }
     .sec1 .body h1 {
         font-size: 28px;
     }
@@ -48,9 +50,9 @@
         width: 300px;
     }
 
-    .project a {
-        top: 65%;
-        left: 20%;
+    .sec1 .project a {
+        top: 70%;
+        left: 15%;
         padding: 10px 10px;
     }
 
@@ -83,11 +85,11 @@
         display: none;
     }      
     .sec1 .body{
-        padding: 15% 0;
+        padding: 30% 5%;
     }
     .sec1 .project a{
         top: 67%;
-        left: 12%;
+        left: 15%;
         padding: 10px 10px;
     }
     .sec1 .container{
@@ -202,7 +204,7 @@
     }
 
     .sec1 .project a {
-        top: 130%;
+        top:95%;
         left: 50%;
     }
 
@@ -494,7 +496,7 @@
         padding: 10px;
     }
     .sec1 .project a {
-        top: 135%;
+        top: 100%;
     }
 
     .sec2 .about {
