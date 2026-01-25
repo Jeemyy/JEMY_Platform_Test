@@ -81,8 +81,18 @@
 @media (max-width: 768px) {
     .head .nav1 {
         display: none;
+    }      
+    .sec1 .body{
+        padding: 15% 0;
     }
-
+    .sec1 .project a{
+        top: 67%;
+        left: 12%;
+        padding: 10px 10px;
+    }
+    .sec1 .container{
+        max-width: 750px;
+    }
     .head .toggle_btn,
     .head .dropdown_menu {
         display: block;
@@ -191,8 +201,8 @@
         overflow-x: hidden;
     }
 
-    .project a {
-        top: 65%;
+    .sec1 .project a {
+        top: 130%;
         left: 50%;
     }
 
@@ -482,6 +492,9 @@
     .sec1 .body .links a {
         font-size: 20px;
         padding: 10px;
+    }
+    .sec1 .project a {
+        top: 135%;
     }
 
     .sec2 .about {
