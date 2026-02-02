@@ -385,7 +385,41 @@
     }
 
 }
+@media (max-width: 430px) {
+    .sec1 .body .links a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .sec1 .project a {
+        top: 73%;
+    }
 
+    .sec2 .about {
+        margin: 0;
+    }
+
+    .sec4 .project-card {
+        width: 11rem;
+        height: 15rem !important;
+    }
+
+    .sec5 .contact {
+        flex-direction: column;
+    }
+
+    .sec5 .msg {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .sec1 .project a {
+        padding: 10px 50px;
+    }
+
+    footer .wave {
+        display: none;
+    }
+}
 /* ====== Extra Small Devices (Phones < 400px) ====== */
 @media (max-width: 400px) {
 
@@ -493,38 +527,3 @@
 }
 
 
-@media (max-width: 430px) {
-    .sec1 .body .links a {
-        font-size: 20px;
-        padding: 10px;
-    }
-    .sec1 .project a {
-        top: 73%;
-    }
-
-    .sec2 .about {
-        margin: 0;
-    }
-
-    .sec4 .project-card {
-        width: 11rem;
-        height: 15rem !important;
-    }
-
-    .sec5 .contact {
-        flex-direction: column;
-    }
-
-    .sec5 .msg {
-        width: 90%;
-        margin: 20px 0;
-    }
-
-    .sec1 .project a {
-        padding: 10px 50px;
-    }
-
-    footer .wave {
-        display: none;
-    }
-}
