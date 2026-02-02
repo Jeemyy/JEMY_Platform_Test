@@ -3,19 +3,16 @@
     .sec1 .body {
         padding: 10% 8%;
     }
-
     .sec1 .img1 img {
         right: 15%;
         width: 320px;
     }
-
     /* .sec4 .project-card {
         width: 17rem;
     } */
     .sec3 .all-card {
         grid-template-columns: repeat(3, 1fr);
     }
-
     footer .wave {
         top: 295rem;
     }
@@ -26,20 +23,22 @@
         width: 17rem;
     }
 }
-
 /* ====== Laptop (Medium) ====== */
 @media (max-width: 992px) {
+    /* .head .nav1 {
+        display: none;
+    }
+    .head .toggle_btn,
+    .head .dropdown_menu {
+        display: block;
+    } */
 
     .sec1 .body {
-        padding: 25% 0%;
-    }
-    .sec1 .container{
-        max-width: 850px;
+        padding: 12% 8%;
     }
     .sec1 .body h1 {
         font-size: 28px;
     }
-
     .sec1 .body p {
         width: 22rem;
         font-size: 18px;
@@ -48,12 +47,6 @@
     .sec1 .img1 img {
         right: 12%;
         width: 300px;
-    }
-
-    .sec1 .project a {
-        top: 70%;
-        left: 15%;
-        padding: 10px 10px;
     }
 
     .sec2 .about .page .photo img {
@@ -66,14 +59,12 @@
         width: 90%;
         margin: 1rem auto;
     } */
-    .sec4 .card {
+    .sec4 .card{
         width: 300px;
     }
-
     .sec3 .all-card {
         grid-template-columns: repeat(3, 1fr);
     }
-
     footer .wave {
         top: 332rem;
     }
@@ -83,72 +74,48 @@
 @media (max-width: 768px) {
     .head .nav1 {
         display: none;
-    }      
-    .sec1 .body{
-        padding: 30% 5%;
-    }
-    .sec1 .project a{
-        top: 67%;
-        left: 15%;
-        padding: 10px 10px;
-    }
-    .sec1 .container{
-        max-width: 750px;
     }
     .head .toggle_btn,
     .head .dropdown_menu {
         display: block;
     }
 
-    .img1 span {
+    .img1 span{
         font-size: 25rem;
-        bottom: 4%;
+        bottom:4%;
         font-size: 320px;
     }
-
     .sec1 .img1 img {
         right: 15%;
         width: 280px;
     }
-
-    .img1 #left {
+    .img1 #left{
         right: 47%;
     }
 
-    .img1 #right {
+    .img1 #right{
         right: 1%;
     }
-
     .sec1 .body h1 {
         font-size: 26px;
     }
-
     .sec1 .body p {
         width: 18rem;
         font-size: 16px;
     }
 
     .sec2 .about .page {
-        flex-direction: column;
-        /* stack items vertically */
-        text-align: center;
-        /* center text for mobile */
-    }
-
-    .sec2 label {
-        margin: auto;
+        flex-direction: column; /* stack items vertically */
+        text-align: center; /* center text for mobile */
     }
 
     .sec2 .about .page .text {
-        order: 1;
-        /* show text first (on top) */
-        text-align: center;
-        /* center the text for small screens */
+        order: 1; /* show text first (on top) */
+        text-align: center; /* center the text for small screens */
     }
 
     .sec2 .about .page .photo {
-        order: 2;
-        /* image goes below */
+        order: 2; /* image goes below */
     }
 
     .sec2 .photo {
@@ -164,8 +131,7 @@
     .sec2 .about h4 {
         font-size: 1rem;
     }
-
-    .sec2 .about h4 span {
+    .sec2 .about h4 span{
         font-size: 1rem;
     }
 
@@ -179,16 +145,14 @@
     }
 
     /* Center the last (3rd) card below the first two */
-    .sec3 .card:nth-child(3) {
-        grid-column: 1 / span 2;
-        justify-self: center;
+    .sec3 .card:nth-child(3){
+        grid-column: 1 / span 2; 
+        justify-self: center;     
         width: 60%;
     }
-
-    .sec4 .card {
+    .sec4 .card{
         width: 400px;
     }
-
     footer .wave {
         top: 398rem;
     }
@@ -196,139 +160,113 @@
 
 /* ====== Mobile (Small) ====== */
 @media (max-width: 576px) {
-
-    html,
-    body {  
+    html, body{
         /* box-sizing: border-box; */
         overflow-x: hidden;
     }
-
-    .sec1 .project a {
-        top: 130%;
-        left: 50%;
-    }
-
-    .sec2 .about .page .text {
-        margin: 0;
-        /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    }
-
-    .sec1 .line {
+    .sec1 .line{
         margin-left: 2.7rem;
         margin-top: 5px;
         background-color: aqua;
         width: 10rem;
         height: 2px;
     }
-
-    .sec1 .line1 {
+    .sec1 .line1{
         margin-left: 4.4rem;
         margin-top: 5px;
         background-color: aqua;
         width: 7rem;
         height: 2px;
     }
-
-    .sec1 .line2 {
+    .sec1 .line2{
         margin-left: 5.8rem;
         margin-top: 5px;
         background-color: aqua;
         width: 4rem;
         height: 2px;
     }
-
-    .title {
+    .title{
         margin-left: 10px;
     }
-
-    .sec1 .container {
-        display: flex;
-        flex-direction: column;
-        /* Stack items vertically */
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+     .sec1 .container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     }
-
-    .body .project a {
+    .body .project a{
         padding: 1% 10%;
     }
 
 
-    /* Make image section appear first */
-    .sec1 .img1 {
-        order: 1;
-        position: relative;
-        /* Reset absolute positioning */
-        margin-top: 40px;
-        margin-bottom: 20px;
-    }
+  /* Make image section appear first */
+  .sec1 .img1 {
+    order: 1;
+    position: relative; /* Reset absolute positioning */
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
 
-    .sec1 .img1 img {
-        position: relative;
-        width: 250px;
-        height: auto;
-        right: 0;
-        bottom: 0;
-        /* border-radius: 40%; */
-    }
+  .sec1 .img1 img {
+    position: relative;
+    width: 250px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+    /* border-radius: 40%; */
+  }
 
-    .sec1 .img1 span {
-        display: block;
-        font-size: 300px;
-    }
+  .sec1 .img1 span {
+    display: block; 
+    font-size: 300px;
+  }
 
-    .sec1 .img1 #left {
-        right: 90%;
-    }
+  .sec1 .img1 #left{
+    right: 90%;
+  }
+  .sec1 .img1 #right{
+    right: -50%;
+  }
+  .sec1 .body {
+    order: 2;
+    padding: 20px;
+  }
 
-    .sec1 .img1 #right {
-        right: -50%;
-    }
+  .sec1 .body h1 {
+    font-size: 24px;
+  }
 
-    .sec1 .body {
-        order: 2;
-        padding: 20px;
-    }
+  .sec1 .body h3 {
+    font-size: 18px;
+  }
 
-    .sec1 .body h1 {
-        font-size: 24px;
-    }
+  .sec1 .body p {
+    width: 100%;
+    font-size: 14px;
+  }
 
-    .sec1 .body h3 {
-        font-size: 18px;
-    }
+  .sec1 .body .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 0;
+  }
 
-    .sec1 .body p {
-        width: 100%;
-        font-size: 14px;
-    }
-
-    .sec1 .body .links {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 90px;
-        margin-left: 0;
-    }
-
-    .sec1 .body .links a {
-        font-size: 22px;
-        margin-left: 15px;
-        margin-right: 15px;
-        gap: 20px;
-    }
-
+  .sec1 .body .links a {
+    font-size: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+    gap: 20px;
+  }
     /* .sec3 .all-card {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     } */
     .sec3 .all-card {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* start with two columns */
+        grid-template-columns: repeat(2, 1fr); /* start with two columns */
         width: 100%;
         margin: 0 auto;
         justify-items: center;
@@ -336,120 +274,68 @@
 
     }
 
-    /* First card centered in first row (spans across both columns) */
-    .sec3 .card:nth-child(1) {
-        grid-column: 1 / span 2;
-        justify-self: center;
-        width: 80%;
-    }
+  /* First card centered in first row (spans across both columns) */
+  .sec3 .card:nth-child(1) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    width: 80%;
+  }
 
-    /* Make all other cards appear one per row below */
-    .sec3 .card:not(:nth-child(1)) {
-        grid-column: 1 / span 2;
-        justify-self: center;
-        width: 80%;
-    }
-
+  /* Make all other cards appear one per row below */
+  .sec3 .card:not(:nth-child(1)) {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    width: 80%;
+  }
     .dropdown_menu {
         left: 1rem;
         width: 90%;
     }
-
     footer .wave {
         top: 402rem;
     }
-
-    .sec2 .about {
+    .sec2 .about{
         margin: 0;
     }
-
     .sec4 .project-card {
         width: 12rem;
-        height: 15rem !important;
+        height: 15rem !important; 
     }
-
-    .sec5 #i {
+    .sec5 #i{
         margin: 0 5px;
         padding: 0;
         width: 2.5rem;
         height: 40px;
     }
-
-    .sec5 .contact {
+    .sec5 .contact{
         flex-direction: column;
     }
-
-    .sec5 .msg {
+    .sec5 .msg{
         width: 90%;
         margin: 20px 0;
-    }
-
-}
-@media (max-width: 430px) {
-    .sec1 .body .links a {
-        font-size: 20px;
-        padding: 10px;
-    }
-    .sec1 .project a {
-        top: 73%;
-    }
-
-    .sec2 .about {
-        margin: 0;
-    }
-
-    .sec4 .project-card {
-        width: 11rem;
-        height: 15rem !important;
-    }
-
-    .sec5 .contact {
-        flex-direction: column;
-    }
-
-    .sec5 .msg {
-        width: 90%;
-        margin: 20px 0;
-    }
-
-    .sec1 .project a {
-        padding: 10px 50px;
-    }
-
-    footer .wave {
-        display: none;
     }
 }
 /* ====== Extra Small Devices (Phones < 400px) ====== */
 @media (max-width: 400px) {
-
-    html,
-    body {
+    html, body{
         /* box-sizing: border-box; */
         overflow-x: hidden;
     }
-
-    .sec1 .line {
+        .sec1 .line{
         margin-left: 1.7rem;
         width: 9rem;
     }
-
-    .sec1 .line1 {
+    .sec1 .line1{
         margin-left: 2.7rem;
         width: 7rem;
     }
-
-    .sec1 .line2 {
+    .sec1 .line2{
         margin-left: 4.3rem;
-    }
-    .sec1 .project a {
-        top: 95%;
     }
 
     .sec1 .body h1 {
         font-size: 22px;
     }
-
     .sec1 .body p {
         font-size: 14px;
     }
@@ -457,73 +343,88 @@
     .sec1 .project a {
         padding: 10px 50px;
     }
-
     .sec1 .body .links a {
         font-size: 20px;
         padding: 10px;
     }
-
-    .sec1 .img1 {
+    .sec1 .img1{
         margin-top: 5rem;
 
     }
-
-    .sec1 .img1 img {
+    .sec1 .img1 img{
         width: 200px;
     }
-
-    .sec1 .img1 span {
-        font-size: 200px;
+    .sec1 .img1 span{
+          font-size: 200px;
     }
-
-    .sec1 .img1 #right {
+    .sec1 .img1 #right{
         right: -35%;
     }
 
-    .sec2 .about .page {
+    .sec2 .about .page{
         justify-content: center;
         align-items: center;
     }
-
-    .sec2 .about {
+    
+    .sec2 .about{
         margin: 0;
     }
-
     .sec4 .project-card {
         width: 10rem;
-        height: 15rem !important;
+        height: 15rem !important; 
     }
-
-    .about .social #i {
+    .about .social #i{
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .sec5 #i {
+    .sec5 #i{
         margin: 0 5px;
         padding: 0;
         width: 2.5rem;
         height: 40px;
     }
-
-    .sec5 .contact {
+    .sec5 .contact{
         flex-direction: column;
     }
-
-    .sec5 .msg {
+    .sec5 .msg{
         width: 90%;
         margin: 20px 0;
     }
-
-    footer .menu li a {
+    footer .menu li a{
         font-size: 10px;
         margin: 0 3px;
     }
-
     footer .wave {
         display: none;
     }
 }
 
 
+@media (max-width: 430px) {
+    .sec1 .body .links a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .sec2 .about{
+        margin: 0;
+    }
+    .sec4 .project-card {
+        width: 11rem;
+        height: 15rem !important; 
+    }
+    .sec5 .contact{
+        flex-direction: column;
+    }
+    .sec5 .msg{
+        width: 90%;
+        margin: 20px 0;
+    }
+    .sec1 .project a {
+        padding: 10px 50px;
+    }
+
+    footer .wave {
+        display: none;
+    }
+}
