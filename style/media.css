@@ -198,13 +198,13 @@
 @media (max-width: 576px) {
 
     html,
-    body {
+    body {  
         /* box-sizing: border-box; */
         overflow-x: hidden;
     }
 
     .sec1 .project a {
-        top:95%;
+        top: 130%;
         left: 50%;
     }
 
@@ -408,6 +408,9 @@
     .sec1 .line2 {
         margin-left: 4.3rem;
     }
+    .sec1 .project a {
+        top: 95%;
+    }
 
     .sec1 .body h1 {
         font-size: 22px;
@@ -496,7 +499,7 @@
         padding: 10px;
     }
     .sec1 .project a {
-        top: 100%;
+        top: 73%;
     }
 
     .sec2 .about {
